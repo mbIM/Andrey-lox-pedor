@@ -27,7 +27,15 @@ namespace lox
                 {
                     Console.WriteLine("Слишком мало");
                 }
-            }
+                else if (num > a)
+                {
+                    Console.WriteLine("Слишком много");
+                }
+                else if (num == a)
+                {
+                    Console.WriteLine("Вы угадали");
+                }
+            } while ();
         }
     }
 }
