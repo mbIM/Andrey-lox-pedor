@@ -6,7 +6,8 @@ namespace lox
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Random rnd = new Random();
+            int a = rnd.Next(1, 100);
         }
     }
 }
