@@ -12,6 +12,14 @@ namespace lox
             int c = a - 5;
 
             int num = Convert.ToInt32(Console.ReadLine());
+
+            do
+            {
+                if (num > a && num < b)
+                {
+                    Console.WriteLine("Чуть меньше");
+                }
+            }
         }
     }
 }
