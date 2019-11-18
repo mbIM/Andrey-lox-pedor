@@ -11,10 +11,11 @@ namespace lox
             int b = a + 5;
             int c = a - 5;
 
-            int num = Convert.ToInt32(Console.ReadLine());
+            int num = 0;
 
             do
             {
+                num = Convert.ToInt32(Console.ReadLine());
                 if (num > a && num <= b)
                 {
                     Console.WriteLine("Чуть меньше");
@@ -35,7 +36,7 @@ namespace lox
                 {
                     Console.WriteLine("Вы угадали");
                 }
-            } while ();
+            } while (num != a);
         }
     }
 }
