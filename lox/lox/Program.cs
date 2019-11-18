@@ -15,9 +15,17 @@ namespace lox
 
             do
             {
-                if (num > a && num < b)
+                if (num > a && num <= b)
                 {
                     Console.WriteLine("Чуть меньше");
+                }
+                else if (num < a && num >= c)
+                {
+                    Console.WriteLine("Чуть больше");
+                }
+                else if (num < a)
+                {
+                    Console.WriteLine("Слишком мало");
                 }
             }
         }
