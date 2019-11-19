@@ -24,6 +24,7 @@ namespace gg1
                 }
                 else if (num < a)
                 {
+
                     temp = a;
                     a = rnd.Next(b, temp);
                     Console.WriteLine(a);
